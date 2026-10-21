@@ -1,0 +1,2686 @@
+{
+  "users": [
+    {
+      "id": "usr_farmer_1",
+      "name": "Rasheed Ahmed Brohi",
+      "phone": "0300-1122334",
+      "district": "Hyderabad",
+      "role": "Farmer"
+    },
+    {
+      "id": "usr_farmer_2",
+      "name": "Ghulam Mustafa Soomro",
+      "phone": "0301-2233445",
+      "district": "Sukkur",
+      "role": "Farmer"
+    },
+    {
+      "id": "usr_farmer_3",
+      "name": "Allah Dino Chandio",
+      "phone": "0302-3344556",
+      "district": "Mirpur Khas",
+      "role": "Farmer"
+    },
+    {
+      "id": "usr_farmer_4",
+      "name": "Naseer Jamali",
+      "phone": "0303-4455667",
+      "district": "Hyderabad",
+      "role": "Farmer"
+    },
+    {
+      "id": "usr_buyer_1",
+      "name": "Tariq Mehmood Traders",
+      "phone": "0304-5566778",
+      "district": "Sukkur",
+      "role": "Buyer"
+    },
+    {
+      "id": "usr_buyer_2",
+      "name": "Sindh Agri Wholesalers",
+      "phone": "0305-6677889",
+      "district": "Hyderabad",
+      "role": "Buyer"
+    }
+  ],
+  "crops": [
+    {
+      "id": "crp_wheat",
+      "name": "Wheat",
+      "category": "Grains"
+    },
+    {
+      "id": "crp_rice",
+      "name": "Rice (Basmati)",
+      "category": "Grains"
+    },
+    {
+      "id": "crp_cotton",
+      "name": "Cotton",
+      "category": "Cash Crops"
+    },
+    {
+      "id": "crp_sugarcane",
+      "name": "Sugarcane",
+      "category": "Cash Crops"
+    },
+    {
+      "id": "crp_onion",
+      "name": "Onion",
+      "category": "Vegetables"
+    },
+    {
+      "id": "crp_tomato",
+      "name": "Tomato",
+      "category": "Vegetables"
+    },
+    {
+      "id": "crp_mango",
+      "name": "Mango (Sindhri)",
+      "category": "Fruits"
+    },
+    {
+      "id": "crp_banana",
+      "name": "Banana",
+      "category": "Fruits"
+    }
+  ],
+  "markets": [
+    {
+      "id": "mkt_hyd",
+      "name": "Hyderabad Mandi",
+      "district": "Hyderabad"
+    },
+    {
+      "id": "mkt_suk",
+      "name": "Sukkur Mandi",
+      "district": "Sukkur"
+    },
+    {
+      "id": "mkt_mpk",
+      "name": "Mirpur Khas Mandi",
+      "district": "Mirpur Khas"
+    }
+  ],
+  "prices": [
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d0",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 91.4
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d1",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 93.36
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d2",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 96.56
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d3",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 99.5
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d4",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 100.79
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d5",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 99.83
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d6",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 97.07
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d7",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 93.8
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d8",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 91.57
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d9",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 91.42
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d10",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 93.42
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d11",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 96.64
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d12",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 99.55
+    },
+    {
+      "id": "prc_crp_wheat_mkt_hyd_d13",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 100.8
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d0",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 87.59
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d1",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 89.47
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d2",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 92.54
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d3",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 95.35
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d4",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 96.59
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d5",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 95.67
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d6",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 93.03
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d7",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 89.9
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d8",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 87.76
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d9",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 87.61
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d10",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 89.53
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d11",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 92.61
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d12",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 95.41
+    },
+    {
+      "id": "prc_crp_wheat_mkt_suk_d13",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 96.6
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d0",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 89.49
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d1",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 91.41
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d2",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 94.55
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d3",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 97.43
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d4",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 98.69
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d5",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 97.75
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d6",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 95.05
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d7",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 91.85
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d8",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 89.66
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d9",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 89.52
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d10",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 91.48
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d11",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 94.63
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d12",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 97.48
+    },
+    {
+      "id": "prc_crp_wheat_mkt_mpk_d13",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 98.7
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d0",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 162.68
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d1",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 161.55
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d2",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 157.35
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d3",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 152.04
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d4",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 148.12
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d5",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 147.44
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d6",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 150.31
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d7",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 155.39
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d8",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 160.29
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d9",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 162.69
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d10",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 161.48
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d11",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 157.22
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d12",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 151.92
+    },
+    {
+      "id": "prc_crp_rice_mkt_hyd_d13",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 148.06
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d0",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 170.02
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d1",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 168.85
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d2",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 164.46
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d3",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 158.91
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d4",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 154.81
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d5",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 154.1
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d6",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 157.1
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d7",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 162.41
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d8",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 167.52
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d9",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 170.04
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d10",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 168.78
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d11",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 164.33
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d12",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 158.78
+    },
+    {
+      "id": "prc_crp_rice_mkt_suk_d13",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 154.75
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d0",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 165.83
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d1",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 164.68
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d2",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 160.39
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d3",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 154.98
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d4",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 150.99
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d5",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 150.29
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d6",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 153.22
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d7",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 158.4
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d8",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 163.39
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d9",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 165.84
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d10",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 164.61
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d11",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 160.27
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d12",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 154.86
+    },
+    {
+      "id": "prc_crp_rice_mkt_mpk_d13",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 150.93
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d0",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 212
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d1",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 219.35
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d2",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 224.66
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d3",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 225.43
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d4",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 221.29
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d5",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 214.19
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d6",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 207.48
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d7",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 204.3
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d8",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 206.15
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d9",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 212.17
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d10",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 219.52
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d11",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 224.74
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d12",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 225.38
+    },
+    {
+      "id": "prc_crp_cotton_mkt_hyd_d13",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 221.14
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d0",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 224.81
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d1",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 232.62
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d2",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 238.25
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d3",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 239.06
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d4",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 234.67
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d5",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 227.14
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d6",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 220.02
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d7",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 216.65
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d8",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 218.62
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d9",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 225
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d10",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 232.79
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d11",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 238.33
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d12",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 239.01
+    },
+    {
+      "id": "prc_crp_cotton_mkt_suk_d13",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 234.51
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d0",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 216.93
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d1",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 224.45
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d2",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 229.89
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d3",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 230.67
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d4",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 226.43
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d5",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 219.17
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d6",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 212.3
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d7",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 209.05
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d8",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 210.95
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d9",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 217.1
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d10",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 224.62
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d11",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 229.97
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d12",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 230.62
+    },
+    {
+      "id": "prc_crp_cotton_mkt_mpk_d13",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 226.28
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d0",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 16.84
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d1",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 16.28
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d2",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 15.82
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d3",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 15.68
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d4",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 15.93
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d5",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 16.45
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d6",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 16.99
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d7",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 17.3
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d8",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 17.24
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d9",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 16.83
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d10",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 16.26
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d11",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 15.81
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d12",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 15.68
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_hyd_d13",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 15.94
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d0",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 15.31
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d1",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 14.8
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d2",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 14.38
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d3",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 14.25
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d4",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 14.48
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d5",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 14.95
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d6",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 15.44
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d7",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 15.73
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d8",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 15.67
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d9",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 15.3
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d10",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 14.78
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d11",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 14.37
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d12",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 14.26
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_suk_d13",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 14.49
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d0",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 16.33
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d1",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 15.78
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d2",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 15.34
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d3",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 15.2
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d4",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 15.45
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d5",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 15.95
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d6",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 16.47
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d7",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 16.78
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d8",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 16.72
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d9",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 16.32
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d10",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 15.77
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d11",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 15.33
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d12",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 15.21
+    },
+    {
+      "id": "prc_crp_sugarcane_mkt_mpk_d13",
+      "crop_id": "crp_sugarcane",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 15.45
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d0",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 78.07
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d1",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 79.74
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d2",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 82.48
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d3",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 84.99
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d4",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 86.09
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d5",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 85.27
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d6",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 82.91
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d7",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 80.12
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d8",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 78.22
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d9",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 78.09
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d10",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 79.8
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d11",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 82.55
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d12",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 85.04
+    },
+    {
+      "id": "prc_crp_onion_mkt_hyd_d13",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 86.1
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d0",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 74.26
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d1",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 75.85
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d2",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 78.45
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d3",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 80.84
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d4",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 81.89
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d5",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 81.11
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d6",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 78.87
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d7",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 76.22
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d8",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 74.4
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d9",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 74.28
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d10",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 75.91
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d11",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 78.52
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d12",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 80.89
+    },
+    {
+      "id": "prc_crp_onion_mkt_suk_d13",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 81.9
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d0",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 81.88
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d1",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 83.63
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d2",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 86.5
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d3",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 89.13
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d4",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 90.29
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d5",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 89.43
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d6",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 86.96
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d7",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 84.03
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d8",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 82.03
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d9",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 81.9
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d10",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 83.69
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d11",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 86.57
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d12",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 89.18
+    },
+    {
+      "id": "prc_crp_onion_mkt_mpk_d13",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 90.3
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d0",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 113.39
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d1",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 117.33
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d2",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 120.17
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d3",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 120.58
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d4",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 118.36
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d5",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 114.57
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d6",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 110.98
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d7",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 109.28
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d8",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 110.27
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d9",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 113.49
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d10",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 117.42
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d11",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 120.21
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d12",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 120.55
+    },
+    {
+      "id": "prc_crp_tomato_mkt_hyd_d13",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 118.28
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d0",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 123.25
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d1",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 127.53
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d2",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 130.62
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d3",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 131.06
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d4",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 128.66
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d5",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 124.53
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d6",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 120.63
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d7",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 118.78
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d8",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 119.86
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d9",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 123.35
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d10",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 127.63
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d11",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 130.66
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d12",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 131.04
+    },
+    {
+      "id": "prc_crp_tomato_mkt_suk_d13",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 128.57
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d0",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 108.46
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d1",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 112.23
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d2",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 114.94
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d3",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 115.33
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d4",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 113.22
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d5",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 109.59
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d6",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 106.15
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d7",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 104.53
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d8",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 105.47
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d9",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 108.55
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d10",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 112.31
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d11",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 114.98
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d12",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 115.31
+    },
+    {
+      "id": "prc_crp_tomato_mkt_mpk_d13",
+      "crop_id": "crp_tomato",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 113.14
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d0",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 216.83
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d1",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 210.08
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d2",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 203.3
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d3",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 199.67
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d4",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 200.89
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d5",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 206.4
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d6",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 213.6
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d7",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 219.11
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d8",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 220.33
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d9",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 216.69
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d10",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 209.91
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d11",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 203.16
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d12",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 199.64
+    },
+    {
+      "id": "prc_crp_mango_mkt_hyd_d13",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 200.98
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d0",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 201.34
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d1",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 195.08
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d2",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 188.78
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d3",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 185.41
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d4",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 186.54
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d5",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 191.66
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d6",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 198.35
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d7",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 203.46
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d8",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 204.59
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d9",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 201.21
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d10",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 194.91
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d11",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 188.65
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d12",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 185.38
+    },
+    {
+      "id": "prc_crp_mango_mkt_suk_d13",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 186.63
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d0",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 237.48
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d1",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 230.09
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d2",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 222.66
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d3",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 218.68
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d4",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 220.03
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d5",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 226.06
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d6",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 233.95
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d7",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 239.98
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d8",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 241.31
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d9",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 237.33
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d10",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 229.9
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d11",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 222.51
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d12",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 218.65
+    },
+    {
+      "id": "prc_crp_mango_mkt_mpk_d13",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 220.12
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d0",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-08",
+      "price": 93.67
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d1",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-09",
+      "price": 96.92
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d2",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-10",
+      "price": 99.27
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d3",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-11",
+      "price": 99.61
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d4",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-12",
+      "price": 97.78
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d5",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-13",
+      "price": 94.64
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d6",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-14",
+      "price": 91.68
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d7",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-15",
+      "price": 90.27
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d8",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-16",
+      "price": 91.09
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d9",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-17",
+      "price": 93.75
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d10",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-18",
+      "price": 97
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d11",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-19",
+      "price": 99.3
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d12",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-20",
+      "price": 99.59
+    },
+    {
+      "id": "prc_crp_banana_mkt_hyd_d13",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_hyd",
+      "date": "2026-10-21",
+      "price": 97.71
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d0",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-08",
+      "price": 103.53
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d1",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-09",
+      "price": 107.13
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d2",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-10",
+      "price": 109.72
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d3",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-11",
+      "price": 110.09
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d4",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-12",
+      "price": 108.07
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d5",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-13",
+      "price": 104.61
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d6",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-14",
+      "price": 101.33
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d7",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-15",
+      "price": 99.77
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d8",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-16",
+      "price": 100.68
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d9",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-17",
+      "price": 103.62
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d10",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-18",
+      "price": 107.21
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d11",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-19",
+      "price": 109.76
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d12",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-20",
+      "price": 110.07
+    },
+    {
+      "id": "prc_crp_banana_mkt_suk_d13",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_suk",
+      "date": "2026-10-21",
+      "price": 108
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d0",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-08",
+      "price": 88.74
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d1",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-09",
+      "price": 91.82
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d2",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-10",
+      "price": 94.04
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d3",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-11",
+      "price": 94.36
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d4",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-12",
+      "price": 92.63
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d5",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-13",
+      "price": 89.66
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d6",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-14",
+      "price": 86.85
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d7",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-15",
+      "price": 85.52
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d8",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-16",
+      "price": 86.3
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d9",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-17",
+      "price": 88.82
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d10",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-18",
+      "price": 91.89
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d11",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-19",
+      "price": 94.08
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d12",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-20",
+      "price": 94.35
+    },
+    {
+      "id": "prc_crp_banana_mkt_mpk_d13",
+      "crop_id": "crp_banana",
+      "market_id": "mkt_mpk",
+      "date": "2026-10-21",
+      "price": 92.57
+    }
+  ],
+  "listings": [
+    {
+      "id": "lst_001",
+      "user_id": "usr_farmer_1",
+      "crop_id": "crp_wheat",
+      "quantity": 1200,
+      "asking_price": 95,
+      "district": "Hyderabad",
+      "grade": "A",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0300-1122334",
+      "created_at": "2026-10-20T06:34:37.025Z",
+      "updated_at": "2026-10-20T06:34:37.025Z"
+    },
+    {
+      "id": "lst_002",
+      "user_id": "usr_farmer_1",
+      "crop_id": "crp_onion",
+      "quantity": 850,
+      "asking_price": 80,
+      "district": "Hyderabad",
+      "grade": "B",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0300-1122334",
+      "created_at": "2026-10-20T12:34:37.025Z",
+      "updated_at": "2026-10-20T12:34:37.025Z"
+    },
+    {
+      "id": "lst_003",
+      "user_id": "usr_farmer_2",
+      "crop_id": "crp_rice",
+      "quantity": 3500,
+      "asking_price": 158,
+      "district": "Sukkur",
+      "grade": "A",
+      "available_from": "2026-10-22",
+      "status": "Active",
+      "contact_phone": "0301-2233445",
+      "created_at": "2026-10-20T18:34:37.025Z",
+      "updated_at": "2026-10-20T18:34:37.025Z"
+    },
+    {
+      "id": "lst_004",
+      "user_id": "usr_farmer_2",
+      "crop_id": "crp_cotton",
+      "quantity": 2200,
+      "asking_price": 225,
+      "district": "Sukkur",
+      "grade": "A",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0301-2233445",
+      "created_at": "2026-10-20T22:34:37.025Z",
+      "updated_at": "2026-10-20T22:34:37.025Z"
+    },
+    {
+      "id": "lst_005",
+      "user_id": "usr_farmer_3",
+      "crop_id": "crp_mango",
+      "quantity": 1500,
+      "asking_price": 235,
+      "district": "Mirpur Khas",
+      "grade": "A",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0302-3344556",
+      "created_at": "2026-10-21T00:34:37.025Z",
+      "updated_at": "2026-10-21T00:34:37.025Z"
+    },
+    {
+      "id": "lst_006",
+      "user_id": "usr_farmer_3",
+      "crop_id": "crp_tomato",
+      "quantity": 600,
+      "asking_price": 118,
+      "district": "Mirpur Khas",
+      "grade": "B",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0302-3344556",
+      "created_at": "2026-10-21T02:34:37.025Z",
+      "updated_at": "2026-10-21T02:34:37.025Z"
+    },
+    {
+      "id": "lst_007",
+      "user_id": "usr_farmer_4",
+      "crop_id": "crp_sugarcane",
+      "quantity": 15000,
+      "asking_price": 16,
+      "district": "Hyderabad",
+      "grade": "B",
+      "available_from": "2026-10-28",
+      "status": "Active",
+      "contact_phone": "0303-4455667",
+      "created_at": "2026-10-21T03:34:37.025Z",
+      "updated_at": "2026-10-21T03:34:37.025Z"
+    },
+    {
+      "id": "lst_008",
+      "user_id": "usr_farmer_4",
+      "crop_id": "crp_banana",
+      "quantity": 900,
+      "asking_price": 92,
+      "district": "Hyderabad",
+      "grade": "A",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0303-4455667",
+      "created_at": "2026-10-21T04:34:37.025Z",
+      "updated_at": "2026-10-21T04:34:37.025Z"
+    },
+    {
+      "id": "lst_009",
+      "user_id": "usr_farmer_1",
+      "crop_id": "crp_tomato",
+      "quantity": 400,
+      "asking_price": 122,
+      "district": "Hyderabad",
+      "grade": "C",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0300-1122334",
+      "created_at": "2026-10-21T05:34:37.025Z",
+      "updated_at": "2026-10-21T05:34:37.025Z"
+    },
+    {
+      "id": "lst_010",
+      "user_id": "usr_farmer_2",
+      "crop_id": "crp_wheat",
+      "quantity": 2000,
+      "asking_price": 91.5,
+      "district": "Sukkur",
+      "grade": "B",
+      "available_from": "2026-10-22",
+      "status": "Active",
+      "contact_phone": "0301-2233445",
+      "created_at": "2026-10-21T01:34:37.025Z",
+      "updated_at": "2026-10-21T01:34:37.025Z"
+    },
+    {
+      "id": "lst_011",
+      "user_id": "usr_farmer_3",
+      "crop_id": "crp_onion",
+      "quantity": 1100,
+      "asking_price": 84,
+      "district": "Mirpur Khas",
+      "grade": "A",
+      "available_from": "2026-10-21",
+      "status": "Active",
+      "contact_phone": "0302-3344556",
+      "created_at": "2026-10-20T23:34:37.025Z",
+      "updated_at": "2026-10-20T23:34:37.025Z"
+    },
+    {
+      "id": "lst_012",
+      "user_id": "usr_farmer_4",
+      "crop_id": "crp_cotton",
+      "quantity": 1000,
+      "asking_price": 218,
+      "district": "Hyderabad",
+      "grade": "B",
+      "available_from": "2026-10-21",
+      "status": "Sold",
+      "contact_phone": "0303-4455667",
+      "created_at": "2026-10-19T06:34:37.025Z",
+      "updated_at": "2026-10-20T10:34:37.025Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alt_001",
+      "user_id": "usr_farmer_1",
+      "crop_id": "crp_wheat",
+      "market_id": "mkt_hyd",
+      "condition": "Above",
+      "target_price": 98,
+      "active_status": true,
+      "triggered_status": true,
+      "last_triggered_at": "2026-10-21T06:35:09.862Z"
+    },
+    {
+      "id": "alt_002",
+      "user_id": "usr_farmer_2",
+      "crop_id": "crp_cotton",
+      "market_id": "mkt_suk",
+      "condition": "Above",
+      "target_price": 225,
+      "active_status": true,
+      "triggered_status": true,
+      "last_triggered_at": "2026-10-21T06:35:09.862Z"
+    },
+    {
+      "id": "alt_003",
+      "user_id": "usr_buyer_1",
+      "crop_id": "crp_rice",
+      "market_id": "mkt_suk",
+      "condition": "Below",
+      "target_price": 160,
+      "active_status": true,
+      "triggered_status": true,
+      "last_triggered_at": "2026-10-21T06:35:09.862Z"
+    },
+    {
+      "id": "alt_004",
+      "user_id": "usr_buyer_2",
+      "crop_id": "crp_onion",
+      "market_id": "mkt_hyd",
+      "condition": "Below",
+      "target_price": 85,
+      "active_status": true,
+      "triggered_status": false,
+      "last_triggered_at": null
+    },
+    {
+      "id": "alt_005",
+      "user_id": "usr_farmer_3",
+      "crop_id": "crp_mango",
+      "market_id": "mkt_mpk",
+      "condition": "Above",
+      "target_price": 220,
+      "active_status": true,
+      "triggered_status": true,
+      "last_triggered_at": "2026-10-21T06:35:09.862Z"
+    }
+  ]
+}

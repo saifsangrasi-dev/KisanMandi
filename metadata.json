@@ -1,0 +1,6 @@
+{
+  "name": "KisanMandi - Agricultural Marketplace & REST API",
+  "description": "Complete agricultural commodity trading platform and REST API backend with real-time mandi prices, produce listings, 14-day statistics, and automated price alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

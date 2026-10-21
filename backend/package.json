@@ -1,0 +1,21 @@
+{
+  "name": "kisanmandi-backend",
+  "version": "1.0.0",
+  "description": "Custom REST API backend for KisanMandi Agricultural Marketplace",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node tests/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2"
+  },
+  "keywords": ["kisanmandi", "agriculture", "marketplace", "rest-api", "mandi-prices"],
+  "author": "KisanMandi Engineering",
+  "license": "ISC"
+}
